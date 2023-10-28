@@ -48,7 +48,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public voidSubtract_Null_Rainey()
+        public void Subtract_Null_Rainey()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Subtract("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, "1"));
@@ -72,7 +72,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public voidMultiply_Null_Rainey()
+        public void Multiply_Null_Rainey()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Multiply("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Multiply(null, "1"));
@@ -96,7 +96,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public voidDivide_Null_Rainey()
+        public void Divide_Null_Rainey()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Divide("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Divide(null, "1"));
@@ -120,7 +120,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public voidPower_Null_Rainey()
+        public void Power_Null_Rainey()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Power("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, "1"));
