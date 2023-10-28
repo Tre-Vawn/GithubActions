@@ -32,7 +32,7 @@ namespace GithubActionsLab
 
         // Implement 3 tests per operation, following a similar pattern as above
         [Test]
-        public void Subtract_Valid_Rainey())
+        public void Subtract_Valid_Rainey()
         {
             Assert.AreEqual(-1, Program.Subtract("1", "2"));
             Assert.AreEqual(1, Program.Subtract("3", "2"));
@@ -56,7 +56,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Multiply_Valid_Rainey())
+        public void Multiply_Valid_Rainey()
         {
             Assert.AreEqual(2, Program.Multiply("1", "2"));
             Assert.AreEqual(6, Program.Multiply("3", "2"));
@@ -80,7 +80,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Divide_Valid_Rainey())
+        public void Divide_Valid_Rainey()
         {
             Assert.AreEqual(.5, Program.Divide("1", "2"));
             Assert.AreEqual(1.5, Program.Divide("3", "2"));
@@ -104,7 +104,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Power_Valid_Rainey())
+        public void Power_Valid_Rainey()
         {
             Assert.AreEqual(1, Program.Power("1", "2"));
             Assert.AreEqual(6, Program.Power("3", "2"));
